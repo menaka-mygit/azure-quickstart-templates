@@ -2,14 +2,6 @@ variables:
   ARM_PASS: $(adminPass)
 
 trigger:
-- master
-
-pool:
-  vmImage: 'ubuntu-latest'
-variables:
-  ARM_PASS: $(adminPass)
-
-trigger:
 - none
 
 pool:
